@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+}
+
+h3 {
+    display:inline-block
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li {
+    width: 15vw;
+}
