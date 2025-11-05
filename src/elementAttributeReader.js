@@ -9,18 +9,20 @@ export default function(element, obj, attribute){
         case "type":
             element.type = obj[attribute];
             break;
-        case "content":
-            element.innerHtml = obj[attribute];
+        case "value":
+            element.value = obj[attribute];
             break;
-        case "content":
-            element.innerHtml = obj[attribute];
+        case "for":
+            element.setAttribute('for', obj[attribute]);
             break;
-        case "content":
-            element.innerHtml = obj[attribute];
+        case "id":
+            element.id = obj[attribute];
             break;
         case "onClick":
             element.addEventListener('click', obj[attribute]);
             break;
-            
+        case "name":
+            element.name = obj[attribute];
+            break;
     }
 }

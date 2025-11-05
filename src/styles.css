@@ -22,3 +22,16 @@ ul{
 li {
     width: 15vw;
 }
+
+.todoForm {
+    position: fixed;
+    place-self: center;
+}
+
+.todoListList {
+    display: flex;
+}
+
+.projectListElm {
+    display: inline;
+}
