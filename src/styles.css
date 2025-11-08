@@ -20,16 +20,32 @@ ul{
 }
 
 li {
-    width: 15vw;
+    width: 25vw;
+    text-align: center;
 }
 
 .todoForm {
+    display: grid;
+    justify-content: center;
     position: fixed;
+    bottom: 10vh;
     place-self: center;
+    background-color: rgba(0, 139, 139, 1);
+    height: 50vh;
+    width: 50vw;
+}
+
+.todoForm input, .todoForm li{
+    width: 100%;
+    
 }
 
 .todoListList {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 25vw;
+    gap: 10px;
 }
 
 .projectListElm {
